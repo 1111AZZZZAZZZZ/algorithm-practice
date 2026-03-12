@@ -45,7 +45,7 @@ public class Main {
     return root;
   }
 
-  // 层序遍历二叉树
+  // 层序遍历二叉树：BFS
   private static List<Integer> levelOrderTraversal(TreeNode root) {
     List<Integer> result = new ArrayList<>();
     if (root == null) {

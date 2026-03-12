@@ -1,4 +1,4 @@
-package LeetCode.283. 移动零;
+// package LeetCode.283. 移动零;
 
 class Solution {
     public void moveZeroes(int[] nums) {

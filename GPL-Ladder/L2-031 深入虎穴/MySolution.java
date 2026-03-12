@@ -53,7 +53,7 @@ public class MySolution{
             List<Edge> edges = adj.get(curr);
             for(Edge edge:edges){
                 int next = edge.to;
-                int len = edge.len;
+                // int len = edge.len;
                 // dist[next] = dist[curr] + len;
                 result = next;
                 queue.add(next);
